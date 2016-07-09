@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from notes.models import notes
+from notes.models import Note
 
 
 class NoteAdmin(admin.ModelAdmin):
